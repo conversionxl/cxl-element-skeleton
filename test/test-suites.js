@@ -1,3 +1,3 @@
-window.VaadinElementSuites = [
+window.CXLElementSuites = [
   'sample-test.html'
 ];

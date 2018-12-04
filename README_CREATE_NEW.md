@@ -1,20 +1,20 @@
-### Creating a new Vaadin Element
+### Creating a new CXL Element
 
 1. Clone this repo
 
-        git clone git@github.com:vaadin/vaadin-element-skeleton.git new-element-name
+        git clone git@github.com:conversionxl/cxl-element-skeleton.git cxl-new-element-name
 
-2. When in the `new-element-name` folder, replace all `vaadin-element` and `VaadinElement` occurrences with your new element name.
+2. When in the `cxl-new-element-name` folder, replace all `cxl-element` and `CXLElement` occurrences with your new element name.
 
-        perl -pi -e 's,vaadin-element,new-element-name,g' *.* demo/* test/* src/* theme/*/*
-        perl -pi -e 's,VaadinElement,NewVaadinElementName,g' *.* demo/* test/* src/* theme/*/*
+        perl -pi -e 's,cxl-element,cxl-new-element-name,g' *.* demo/* test/* src/* theme/*/*
+        perl -pi -e 's,CXLElement,CXLNewElementName,g' *.* demo/* test/* src/* theme/*/*
 
 3. Rename the element
 
-        mv vaadin-element.html new-element-name.html
-        mv src/vaadin-element.html src/new-element-name.html
-        mv theme/lumo/vaadin-element.html theme/lumo/new-element-name.html
-        mv theme/material/vaadin-element.html theme/material/new-element-name.html
+        mv cxl-element.html cxl-new-element-name.html
+        mv src/cxl-element.html src/cxl-new-element-name.html
+        mv theme/lumo/cxl-element.html theme/lumo/cxl-new-element-name.html
+        mv theme/material/cxl-element.html theme/material/cxl-new-element-name.html
 
 4. Check that everything works all right
 
@@ -24,18 +24,10 @@
 
   And check that everything works:
 
-  - http://localhost:8080/components/new-element-name/index.html
-  - http://localhost:8080/components/new-element-name/demo/index.html
-  - http://localhost:8080/components/new-element-name/test/index.html
+  - http://localhost:8080/components/cxl-new-element-name/index.html
+  - http://localhost:8080/components/cxl-new-element-name/demo/index.html
+  - http://localhost:8080/components/cxl-new-element-name/test/index.html
 
 5. Remove this README file since it is not needed any more.
 
         rm README_CREATE_NEW.md
-
-5. Finally, initialize git so as we have an empty history for our `<new-element-name>`
-
-        rm -rf .git
-        git init
-        git add * .??*
-        git commit -m 'First Commit' -a
-

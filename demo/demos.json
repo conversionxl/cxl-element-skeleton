@@ -1,12 +1,12 @@
 {
-  "name": "Vaadin Element",
+  "name": "CXL Element",
   "pages": [
   {
     "name": "Basics",
     "url": "element-basic-demos",
     "src": "element-basic-demos.html",
     "meta": {
-      "title": "Vaadin Element Basics",
+      "title": "CXL Element Basics",
       "description": "",
       "image": ""
      }
@@ -17,7 +17,7 @@
     "url": "element-advanced-demos",
     "src": "element-advanced-demos.html",
     "meta": {
-      "title": "Vaadin Element Advanced Examples",
+      "title": "CXL Element Advanced Examples",
       "description": "",
       "image": ""
      }

@@ -1,20 +1,21 @@
 {
-  "name": "vaadin-element",
+  "name": "cxl-element",
   "homepage": "https://vaadin.com/components",
   "authors": [
-    "Vaadin Ltd"
+    "ConversionXL LLC"
   ],
-  "description": "vaadin-element",
+  "description": "cxl-element",
   "main": [
-    "vaadin-element.html",
-    "theme/material/vaadin-element.html"
+    "cxl-element.html",
+    "theme/material/cxl-element.html"
   ],
   "keywords": [
     "Vaadin",
     "vaadin-element",
     "web-components",
     "web-component",
-    "polymer"
+    "polymer",
+    "cxl-element"
   ],
   "license": "Apache-2.0",
   "ignore": [
