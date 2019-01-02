@@ -8,9 +8,15 @@
 
 
     <h3>Sample example</h3>
-    <vaadin-demo-snippet id="element-basic-demos-sample-example">
+    <vaadin-demo-snippet id="element-basic-demos-sample-example" when-defined="cxl-element">
       <template preserve-content>
-        <cxl-element>Foobar</cxl-element>
+        <cxl-element></cxl-element>
+        <script>
+          window.addDemoReadyListener('#element-basic-demos-sample-example', function(document) {
+            const element = document.querySelector('cxl-element');
+            element.textContent = 'Foobar';
+          });
+        </script>
       </template>
     </vaadin-demo-snippet>
 
