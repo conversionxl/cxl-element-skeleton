@@ -63,17 +63,12 @@ import '@cxl/cxl-element/cxl-element.js';
 
 CXL/Vaadin components use the Lumo theme by default.
 
-To use the Material theme, import the correspondent file from the `theme/material` folder.
 
 ## Entry points
 
 - The component with the Lumo theme:
 
   `theme/lumo/cxl-element.html`
-
-- The component with the Material theme:
-
-  `theme/material/cxl-element.html`
 
 - Alias for `theme/lumo/cxl-element.html`:
 

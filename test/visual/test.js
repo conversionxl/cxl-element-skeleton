@@ -14,7 +14,7 @@ gemini.suite('cxl-element', function(rootSuite) {
     .before(wait)
     .after(goToAboutBlank);
 
-  ['lumo', 'material'].forEach(theme => {
+  ['lumo'].forEach(theme => {
     gemini.suite(`default-tests-${theme}`, function(suite) {
       suite
         .setUrl(`/default.html?theme=${theme}`)

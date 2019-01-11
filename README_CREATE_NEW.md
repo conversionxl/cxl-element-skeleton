@@ -14,7 +14,6 @@
         mv cxl-element.html cxl-new-element-name.html
         mv src/cxl-element.html src/cxl-new-element-name.html
         mv theme/lumo/cxl-element.html theme/lumo/cxl-new-element-name.html
-        mv theme/material/cxl-element.html theme/material/cxl-new-element-name.html
 
 4. Check that everything works all right
 
