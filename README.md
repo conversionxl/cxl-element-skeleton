@@ -95,7 +95,7 @@ CXL/Vaadin components use the Lumo theme by default.
 
 ## Running tests from the command line
 
-1. When in the `cxl-element` directory, run `polymer test`
+1. When in the `cxl-element` directory, run `npm test`
 
 
 ## Following the coding style
