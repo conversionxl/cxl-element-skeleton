@@ -31,5 +31,8 @@
   },
   "devDependencies": {
     "@vaadin/vaadin-component-dev-dependencies": "^1.0.0"
+  },
+  "dependencies": {
+    "lit-element": "^2.0.1"
   }
 }
