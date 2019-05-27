@@ -28,10 +28,9 @@ CXL/Vaadin components are distributed as npm packages.
 Please note that the version range is the same, as the API has not changed.
 You should not mix Bower and npm versions in the same application, though.
 
-Unlike the official Polymer Elements, the converted Polymer 3 compatible CXL/Vaadin components
-are only published on npm, not pushed to GitHub repositories.
+The converted ES Modules are only published on npm, not pushed to GitHub repositories.
 
-### Polymer 2 and HTML Imports compatible version
+### Bower (HTML Imports compatible version)
 
 Install `cxl-element`:
 
@@ -44,8 +43,8 @@ Once installed, import it in your application:
 ```html
 <link rel="import" href="bower_components/cxl-element/cxl-element.html">
 ```
-### Polymer 3 and ES Modules compatible version
 
+### npm (ES Modules compatible version)
 
 Install `cxl-element`:
 
